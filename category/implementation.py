@@ -39,14 +39,15 @@ dot = list(input())
 #Q3
 input_data = input()
 row=int(input_data[1])
-column = input(ord(input_data[0]))-int(ord("a")+1
+column = int(ord(input_data[0]))-int(ord("a"))+1
+result=0
 
 dx = [-1,1,2,2,1,-1,-2,-2]
 dy = [2,2,1,-1,-2,-2,-1,1]
 for i in range(len(dx)):
-    nx = x+dx[i]
-    ny = y+dy[i]
-    if nx<1 or ny<1 or nx>input_data or ny>input_data:
+    nx = row+dx[i]
+    ny = column+dy[i]
+    if nx<1 or ny<1 or nx>8 or ny>8:
         continue
     result+=1
 
