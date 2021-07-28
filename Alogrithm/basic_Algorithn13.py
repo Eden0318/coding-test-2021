@@ -21,7 +21,3 @@ if sum2>largest:
     largest=sum2
 print(largest)
 
-
-
-
-    
