@@ -1,14 +1,14 @@
 from collections import deque
 
-need=input()
+need=input() #cba
 n=int(input()) #플랜갯수
 for i in range(n):
-    plan=input() #플랜
+    plan=input() #플랜 CBDAGE
     dq=deque(need) #cba
-    for x in plan:
-        if x in dq:
+    for x in plan: 
+        if x in dq: 
             if x != dq.popleft():
-                print("#%d NO" (i+1))
+                print("#%d NO" %(i+1))
                 break
     else:
         if len(dq)==0:
