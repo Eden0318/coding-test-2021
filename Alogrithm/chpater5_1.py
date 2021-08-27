@@ -1,4 +1,4 @@
-num, m=map(int,input().split())
+num, m=map(int,input().split()) 
 num=list(map(int,str(num)))
 stack=[]
 for x in num:
