@@ -2,7 +2,7 @@ num,m = map(int,input().split())
 num=list(map(int,str(num)))
 stack=[] 
 
-for x in num:
+for x in num: 
     while stack and m>0 and stack[-1]<x:
         stack.pop()
         m-=1
