@@ -1,12 +1,17 @@
-n,m=map(int,input().split())
-n=list(str(n))
+num,m=map(int,input().split())
+num=list(map(int,str(num)))
+stack=[] #9
 
-for i in range(len(n)):
-    if n[i]<n[i+1]:
-        n.pop(i)
+for x in num:  #9977252641 5
+    while stack and 0<m and stack[-1]<x:
+        stack.pop()
         m-=1
-        if m==0:
-            break
-print(n)
+    stack.append(x)
+
+if m!=0:
+    stack=stack[:-m]
+
+for x in stack:
+    print(x, end='')
 
 
