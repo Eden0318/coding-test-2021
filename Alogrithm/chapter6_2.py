@@ -23,8 +23,8 @@ def DFS(v):
         return #종료
     else:
         DFS(v*2, end="") #부모곱하기 2 = 왼쪽노드
-        print(v,end='')
         DFS(v*2+1) #오른쪽노드
+        print(v,end='')
 
 
 if __name__=="__main__":
