@@ -21,7 +21,7 @@ def empty():
 def top():
     return stack[-1] if stack else -1
 
-N = int(sys.stdin.readline().rstrip())
+N = int(input())
 stack = []
 
 for _ in range(N):
@@ -31,6 +31,7 @@ for _ in range(N):
 
     if order == "push":
         push(input_split[1])
+        
     elif order == "pop":
         print(pop())
     elif order == "size":
@@ -39,3 +40,4 @@ for _ in range(N):
         print(empty())
     elif order == "top":
         print(top())
+
