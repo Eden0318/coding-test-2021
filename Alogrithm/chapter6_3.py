@@ -12,5 +12,5 @@ def DFS(v):
 
 if __name__=="__main__":
     n=int(input()) #3
-    ch=[0]*(n+1)
+    ch=[0]*(n+1) #총 4칸
     DFS(1)
