@@ -1,6 +1,6 @@
 import sys
 from collections import deque
-
+#tsum =  넣는다 넣지 않는다 판단하여 부분집합 합친 값
 def DFS(L,sum,tsum):
     global result
     if sum+(total-tsum)<result:
