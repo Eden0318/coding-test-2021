@@ -3,13 +3,13 @@ def DFS(L,sum):
     global res
     if L>res: #cut-edge 시간 더 줄이기위함
         return
-    if sum>m:
+    if sum>m: #15
         return
     if sum==m:
         if L<res:
             res=L
     else:
-        for i in range(n):
+        for i in range(n): #3
             DFS(L+1,sum+a[i])
 
 if __name__=="__main__":
