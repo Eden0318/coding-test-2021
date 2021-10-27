@@ -11,9 +11,9 @@ dQ.append(n)
 
 while dQ:
     now=dQ.popleft()
-    if now==m: #now==14
+    if now==m: # now==14
         break
-    for next in(now-1,now+1,now+5): #3 5 9
+    for next in(now-1,now+1,now+5): # 4 6 10
         if 0<next<=MAX:
             if ch[next]==0:
                 dQ.append(next)
