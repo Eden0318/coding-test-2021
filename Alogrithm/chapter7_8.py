@@ -27,4 +27,8 @@ while True:
                 ch[x][y]==1
                 Q.append((x,y))
     L+=1
-print(sum)            
+print(sum)
+
+
+
+
