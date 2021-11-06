@@ -4,7 +4,7 @@ stack=[]
 
 for i in range(len(s)): #18
     if s[i]=="(":
-        s.append(s[i])
+        stack.append(s[i])
     else:
         if s[i-1]=="(":
             stack.pop()
