@@ -15,16 +15,3 @@ for i in range(len(s)):
 
 print(cnt)
 
-    
-
-
-
-
-
-
-
-
-
-
-
-print(cnt)
