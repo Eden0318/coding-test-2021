@@ -1,6 +1,6 @@
 import sys
 
-def DFS(L,sum):
+def DFS(L,sum): 
     if sum>total//2:
         return
     if L==n: #L==6
