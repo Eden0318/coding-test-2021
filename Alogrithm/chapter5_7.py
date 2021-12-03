@@ -1,9 +1,9 @@
 from collections import deque
 
-need=input() #cba
+need=input() #cba 
 n=int(input()) #플랜갯수
 for i in range(n):
-    plan=input() #플랜 CBDAGE
+    plan=input() #플랜 CBDAGE ECBA
     dq=deque(need) #cba
     for x in plan: 
         if x in dq: 

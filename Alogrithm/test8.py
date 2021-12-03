@@ -1,10 +1,4 @@
-a=100 #1100100
-result=0
-i=0
-for i in range(1,3):
-    result = a>>i
-    result = result+i
-print(result)
-
-#print(10>>3)
+s=(2,20)
+print(s[0])
+print(s[1])
 
